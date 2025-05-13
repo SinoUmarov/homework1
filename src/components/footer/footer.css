@@ -1,0 +1,75 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 90px auto;
+}
+.always,
+.signal {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 20px;
+}
+.signal {
+  gap: 20px;
+  padding: 0;
+}
+.footer2 {
+    background-color: #DBDBDB1A;
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+}
+@media (min-width: 601px) and (max-width: 992px) {
+  .footer {
+    gap: 30px;
+  }
+  .signal {
+    flex-direction: row;
+    gap: 30px;
+  }
+  .always {
+    align-items: center;
+    text-align: center;
+  }
+  .signalChild {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .footer2 {
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px ;
+  }
+}
+
+@media (min-width: 993px) {
+  .footer {
+    gap: 50px;
+    padding: 40px 0;
+  }
+  .signal {
+    flex-direction: row;
+    gap: 100px;
+  }
+  .always {
+    align-items: center;
+    text-align: center;
+  }
+  .signalChild {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+    .footer2 {
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px ;
+  }
+}

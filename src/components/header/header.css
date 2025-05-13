@@ -1,0 +1,50 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+ul {
+  display: none;
+}
+.divBasket {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 17px;
+  line-height: 20px;
+}
+
+@media (min-width: 601px) and (max-width: 992px) {
+  nav {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+  }
+  ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    color: #6c6c6c;
+  }
+  ul > li:hover {
+    color: #ac1313;
+  }
+}
+
+@media (min-width: 993px) {
+  nav {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+  }
+  ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    color: #6c6c6c;
+  }
+  ul > li:hover {
+    color: #ac1313;
+  }
+}
